@@ -1,0 +1,102 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: Figtree;
+    height: 100vh;
+    overflow: hidden;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body p{
+    font-size: 16px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    box-shadow: 5px 5px 0 rgb(0, 0, 0);
+}
+
+#card-image {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.card-image-container {
+    text-align: center;
+}
+
+.card-desc {
+    width: 300px;
+}
+
+.card-desc #desc-text {
+    color: hsl(0, 0%, 42%);
+    font-size: 90%;
+}
+
+.card-desc .tag {
+    margin-top: 10px;
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+    display: inline-block;
+    padding: 5px;
+    font-size: 90%;
+    font-weight: 800;
+    border-radius: 3px;
+}
+
+.card-desc h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+
+}
+
+.card-desc h1:hover, h1:focus {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.card .author {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card .author #author-image {
+    width: 40px;
+}
+
+.card .author .author-name {
+    font-weight: 800;
+    padding-left: 15px;
+    color: hsl(0, 0%, 7%);
+}
+
+.attribution { 
+    margin-top: 10px;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
