@@ -14,8 +14,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://github.com/jmcintosh24/blog-preview-card-component)
+- [Live Site URL](https://jmcintosh24.github.io/blog-preview-card-component/)
 
 ### What I learned
 
